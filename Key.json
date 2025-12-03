@@ -1,0 +1,40 @@
+{
+  "app_status": "active", 
+  "latest_version_date": "01/01/2025",
+  "update_url": "https://t.me/DPMods",
+  "admin_url": "https://t.me/DPMods",
+  "time_api": "http://worldtimeapi.org/api/timezone/Asia/Kolkata",
+  
+  "texts": {
+    "login_btn": "LOGIN",
+    "admin_btn": "ADMIN",
+    "update_btn": "UPDATE NOW",
+    "remember_text": "Show in 24 Hours",
+    "banned_msg": "DEVICE BANNED\nContact Admin",
+    "expired_msg": "Subscription Expired!",
+    "internet_error": "Connection Error\nCheck Internet",
+    "update_msg": "New Update Available"
+  },
+
+  "banned_devices": [
+    "1234567890abcdef",
+    "bad_device_id_2"
+  ],
+
+  "users": [
+    {
+      "username": "admin",
+      "password": "123",
+      "allowed_devices": ["ALL"], 
+      "expiry_date": "30/12/2030",
+      "success_toast": "Welcome Developer!"
+    },
+    {
+      "username": "vip",
+      "password": "vip",
+      "allowed_devices": ["YOUR_DEVICE_ID_HERE", "ANOTHER_ID_HERE"],
+      "expiry_date": "15/05/2025",
+      "success_toast": "VIP Access Granted"
+    }
+  ]
+}
